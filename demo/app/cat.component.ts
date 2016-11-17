@@ -10,8 +10,7 @@ export class CatComponent {
   @Input() name:string;
   @Output() miow:EventEmitter<any> = new EventEmitter();
 
-  constructor() {
-  }
+  constructor() {}
   handleClick() {
     this.miow.emit();
   }
