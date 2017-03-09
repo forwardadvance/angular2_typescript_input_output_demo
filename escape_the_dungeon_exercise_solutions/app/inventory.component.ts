@@ -14,6 +14,4 @@ import {InventoryModel} from './inventory.model';
   })
   export class InventoryComponent {
     @Input() inventory:InventoryModel
-    constructor() {
-    }
   };

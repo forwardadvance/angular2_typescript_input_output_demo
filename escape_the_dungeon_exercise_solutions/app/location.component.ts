@@ -21,7 +21,6 @@ import {LocationModel} from './location.model';
     @Input() location:LocationModel
     @Output() pickUpItem:EventEmitter<any> = new EventEmitter();
 
-    constructor() {}
     handlePickUpItem = function(item:any) {
       this.pickUpItem.emit(item)
     }
